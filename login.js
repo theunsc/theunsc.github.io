@@ -1,3 +1,7 @@
+function my_login() {
+    var pas = document.getElementById("upsw");
+        
+
 var pas = document.getElementById("upsw")
 /*
      *
@@ -239,7 +243,8 @@ var pas = document.getElementById("upsw")
     //     document.SHAForm.MessageDigest.value = digestM;
 
     // }
-    pas_sha1=hex_sha1(pas)
-    if(pas_sha1=="cd4f36d9c7fe445d091151ea1689e3544e33c84f"){
-        window.alert("登录成功")
+    pas_sha1=hex_sha1(pas);
+    if(pas_sha1=="da39a3ee5e6b4b0d3255bfef95601890afd80709"){
+        window.alert("登录成功");
     }
+}
